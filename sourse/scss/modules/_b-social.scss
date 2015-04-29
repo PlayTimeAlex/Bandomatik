@@ -1,0 +1,15 @@
+.b-social{
+    &__item{
+        color: #6F6F6F;
+        font-family: 'Open Sans', sans-serif;
+        $font-size: 13;
+        font-size: em($font-size);
+        padding: 0 0 0 31px;
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        margin-right: em(35, $font-size);
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.b-features{
+    background: url(../images/features-bg.jpg) no-repeat 50% 50% #f7f7f7;
+    background-size: cover;
+    padding-bottom: em(70);
+    padding-top: em(65);
+    &__item{
+        text-align: center;
+        padding: em(23) 0 em(58);
+        p{
+            color: #000;
+            $font-size: 13;
+            font-size: em($font-size);
+
+        }
+    }
+    &__title{
+        color: #000;
+        $font-size: 17;
+        font-size: em($font-size);
+        font-weight: 700;
+        padding-bottom: em(19, $font-size);
+    }
+    &__icon{
+        width: em(49);
+        height: em(49);
+        margin: 0 auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        margin-bottom: em(23);
+    }
+}

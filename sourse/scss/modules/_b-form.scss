@@ -1,0 +1,38 @@
+.b-form{
+    &__text{
+        display: block;
+        width: 100%;
+        color: #6F6F6F;
+        font-family: 'Open Sans', sans-serif;
+        $font-size: 13;
+        font-size: em($font-size);
+        background-color: #FFF;
+        border-radius: 3px;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), inset 1px 1.7px 1px rgba(0, 0, 0, 0.2);
+        height: em(35, $font-size);
+        border: 0;
+        padding: 0 em(24, $font-size);
+        box-sizing: border-box;
+        &:focus{
+            box-shadow: 0 0 5px #0071B8;
+        }
+    }
+    &__submit{
+        $font-size: 16;
+        font-size: em($font-size);
+        text-align: center;
+        background: url(../images/b64/submit_bg.png) no-repeat center top #65BA00;
+        background-size: 100% auto;
+        border-radius: 3px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        line-height: em(35, $font-size);
+        transition: background-color .3s;
+        &:hover{
+            background-color: darken(#65BA00, 10);
+        }
+    }
+}

@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic);
+/*font-family: 'Open Sans', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=latin,cyrillic);
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+@import "modules/base";
+@import "modules/_grid";
+@import "modules/reset";
+@import "modules/pr";
+@import "modules/animate";
+.icon3{
+    background-image: url(../images/b64/i3.png);
+}
+.icon4{
+    background-image: url(../images/b64/i4.png);
+}
+.icon5{
+    background-image: url(../images/b64/i5.png);
+}
+.icon6{
+    background-image: url(../images/b64/i6.png);
+}
+.icon7{
+    background-image: url(../images/b64/i7.png);
+}
+.icon8{
+    background-image: url(../images/b64/i8.png);
+}
+.icon9{
+    background-image: url(../images/b64/i9.png);
+}
+.icon10{
+    background-image: url(../images/b64/i10.png);
+}
+.icon11{
+    background-image: url(../images/b64/i11.png);
+}
+.icon12{
+    background-image: url(../images/b64/i12.png);
+}
+.icon13{
+    background-image: url(../images/b64/i13.png);
+}
+.icon14{
+    background-image: url(../images/b64/i14.png);
+}
+.icon15{
+    background-image: url(../images/b64/i15.png);
+}
+.icon16{
+    background-image: url(../images/b64/i16.png);
+}
+.icon17{
+    background-image: url(../images/b64/i17.png);
+}
+.icon18{
+    background-image: url(../images/b64/i18.png);
+}
+
+body{
+    background: url(../images/content/Brandomatic_banner_space_1000.jpg) no-repeat 50% top #3b3247;
+    background-size: 1920px auto;
+    background-attachment: fixed;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+    transition: width .3s, margin .3s;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+}
+.reclame .wrap{
+    width: 1012px;
+    margin-top: 18em;
+}
+.bg_register{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    cursor: pointer;
+    display: none;
+}
+.reclame .bg_register{
+    display: block;
+}
+.align-right{
+    text-align: right;
+}
+@import "modules/_b-line";
+@import "modules/_b-header";
+@import "modules/_b-footer";
+@import "modules/_b-promo";
+@import "modules/_b-howworks";
+@import "modules/_b-fitem";
+@import "modules/_b-clients";
+@import "modules/_b-features";
+@import "modules/_b-form";
+@import "modules/_b-social";
+
+
+
+@media (max-width: 1600px) {
+    body{
+        background-size: 1800px auto;
+    }
+}
+
+
+@media (max-width: 1450px) {
+    body{
+        background-size: 1750px auto;
+    }
+}
+
+
+@media (max-width: 1370px) {
+    body{
+        background-image: url(../images/content/Brandomatic_banner_space_600.jpg);
+        background-size: 1350px auto;
+        background-position: 50% -20px;
+    }
+    .reclame .wrap{
+        margin-top: 21em;
+    }
+}

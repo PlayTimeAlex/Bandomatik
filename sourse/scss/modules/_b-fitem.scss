@@ -1,0 +1,19 @@
+.b-fitem{
+    padding: 0 0 em(16) em(82);
+    background-repeat: no-repeat;
+    &__title{
+        color: #FFF;
+        $font-size: 17;
+        font-size: em($font-size);
+        font-weight: 700;
+    }
+    p{
+        color: #FFF;
+        $font-size: 14;
+        font-size: em($font-size);
+        font-weight: 300;
+        padding: em(8, $font-size) 0;
+        line-height: 1.3;
+    }
+
+}

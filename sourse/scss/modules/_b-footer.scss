@@ -1,0 +1,41 @@
+.b-footer{
+    padding: em(21) 0 em(20);
+    &__menu{
+        li{
+            list-style: none;
+            padding: em(6) 0;
+        }
+        a{
+            color: #6F6F6F;
+            font-family: 'Open Sans', sans-serif;
+            $font-size: 13;
+            font-size: em($font-size);
+        }
+    }
+    &__created{
+        font-family: 'Open Sans', sans-serif;
+        $font-size: 13;
+        font-size: em($font-size);
+        color: #454545;
+        text-align: right;
+        color: #000;
+        padding: 2px em(38, $font-size) 0 0;
+        background: url(../images/b64/i19.png) no-repeat right center;
+        margin-bottom: em(25);
+        a{
+            color: #117abd;
+        }
+    }
+    &__email{
+        border-top:1px solid #f2f2f2;
+        padding: em(23) em(38) em(23) 0;
+        text-align: right;
+        background: url(../images/b64/i20.png) no-repeat right center;
+        a{
+            color: #D52355;
+            font-family: 'Open Sans', sans-serif;
+            $font-size: 13;
+            font-size: em($font-size);
+        }
+    }
+}

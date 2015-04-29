@@ -1,0 +1,32 @@
+.b-line{
+    padding: em(47) 0 em(80);
+    &_color{
+        &_gray{
+            background-color: #f7f7f7;
+        }
+        &_red{
+            background-color: #cc2152;
+        }
+    }
+    &__title{
+        color: #000;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        $font-size: 43;
+        font-size: em($font-size);
+        text-align: center;
+        line-height: 1.15;
+        letter-spacing: -1px;
+        padding-bottom: em(60, $font-size);
+    }
+    &_color_red &__title{
+        color: #fff;
+    }
+    &_form{
+        padding: em(42) 0;
+    }
+    &.b-social{
+        padding: em(23) 0;
+        border-bottom: 1px solid #f2f2f2;
+    }
+}
